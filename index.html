@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/css.css" />
+    <!-- font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Epilogue:wght@500;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <nav class="nav-bar">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <a href="#" class="ham" id="ham">
+            <img src="../images/icon-menu.svg" alt="Open Menu" />
+          </a>
+          <img src="/images/icon-close-menu.svg" class="close" alt="" />
+          <ul class="nav">
+            <li>
+              <div class="dropdown" data-dropdown>
+                <a href="#" id="features" data-dropdown-button
+                  >Features
+                  <img src="/images/icon-arrow-down.svg" class="down" alt="" />
+                  <img src="/images/icon-arrow-up.svg" class="up hide" alt="" />
+                </a>
+                <div class="dropdown-menu information-grid gg">
+                  <a href=""
+                    ><img src="images/icon-todo.svg" alt="" />Todo List</a
+                  >
+                  <a href=""
+                    ><img src="images/icon-calendar.svg" alt="" />Calender</a
+                  >
+                  <a href=""
+                    ><img src="images/icon-reminders.svg" alt="" />Remainders</a
+                  >
+                  <a href="">
+                    <img src="images/icon-planning.svg" alt="" />Planning</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown" data-dropdown>
+                <a href="#" id="company" data-dropdown-button
+                  >Company
+                  <img src="/images/icon-arrow-down.svg" class="downc" alt="" />
+                  <img
+                    src="/images/icon-arrow-up.svg"
+                    class="upc hide"
+                    alt=""
+                  />
+                </a>
+                <div class="dropdown-menu gg information-grid">
+                  <a href="">History</a>
+                  <a href="">Our team</a>
+                  <a href="">Blog</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <div class="register">
+          <p>Login</p>
+          <p>Register</p>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main">
+        <h1>Make remote work</h1>
+        <h2>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </h2>
+        <h3>Learn more</h3>
+        <div class="logos">
+          <img src="../images/client-databiz.svg" alt="" />
+          <img src="../images/client-audiophile.svg" alt="" />
+          <img src="../images/client-meet.svg" alt="" />
+          <img src="../images/client-maker.svg" alt="" />
+        </div>
+      </div>
+      <div class="main-img">
+        <img src="../images/image-hero-desktop.png" alt="" />
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mostafa Ashraf</a>.
+    </div>
+    <script src="js/js.js"></script>
+  </body>
+</html>
