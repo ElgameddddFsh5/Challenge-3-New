@@ -255,7 +255,7 @@ header nav .close {
     margin: 0 auto;
   }
   main .main-img img {
-    content: url(/images/image-hero-mobile.png);
+    content: url(../images/image-hero-mobile.png);
     max-width: 90%;
   }
 }
@@ -348,7 +348,7 @@ header nav .close {
     margin: 0 auto;
   }
   main .main-img img {
-    content: url(/images/image-hero-mobile.png);
+    content: url(../images/image-hero-mobile.png);
     max-width: 100%;
   }
 }
@@ -430,7 +430,7 @@ header nav .close {
     margin: 0 auto;
   }
   main .main-img img {
-    content: url(/images/image-hero-mobile.png);
+    content: url(../images/image-hero-mobile.png);
     max-width: 100%;
   }
 }
